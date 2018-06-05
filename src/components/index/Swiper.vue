@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  props: ['swiper'],
+  props: ['swiper']
 }
 </script>
 

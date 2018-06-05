@@ -52,3 +52,13 @@ var index = Mock.mock('http://api.com/index', {
     'banner':Random.image('400x100', '#ffcc33','#FFF', 'png', 's4-banner')
   }
 });
+var category = Mock.mock('http://api.com/category', {
+    'aside|6':[{
+      'title':'@cname',
+      'list|6':[{
+        'title':'@last',
+        'imgPath':Random.image('2000x2000','#5169b4','#FFF','png',''),
+
+      }]
+    }]
+});
